@@ -64,8 +64,32 @@ header {
 }
 
 main {
-  margin-top: 100px;
+  margin-top: 80px;
 }
 
+.intro {
+  background-image: linear-gradient(rgba(211, 211, 211, 0.9), rgba(211, 211, 211, 0.9)),url(../images/webdesktop.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  padding: 60px 150px 80px 150px;
+}
+
+.intro h1 {
+  color: rgb(236, 82, 66);
+  font-size: 62px;
+  font-family: sans-serif;
+  padding: 10px;
+  width: 60%;
+}
+
+.intro p {
+  padding: 5px;
+  color: #272A31;
+  border: 2px solid gray;
+  font-size: 20px;
+  line-height: 30px;
+  width: 60%;
+}
 
 
