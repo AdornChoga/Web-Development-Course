@@ -187,6 +187,10 @@ header {
   color: orange;
 }
 
+.show-more-courses {
+  display: none;
+}
+
 /************************ About Page ************************/
 
 .body {
