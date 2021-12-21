@@ -92,4 +92,150 @@ main {
   width: 60%;
 }
 
+/*************Main Program **************/
 
+.main-program {
+  background-color: rgb(39,42,49);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: solid;
+}
+
+.main-program > p {
+  text-align: center;
+  font-size: 17px;
+  font-weight: bold;
+  color: #d3d3d3
+}
+
+.main-program hr, .tutors hr {
+  width: 40px;
+  border: 1px solid #EC5242;
+}
+
+.program-list {
+  list-style-type: none;
+  padding: 20px 100px 30px 100px;
+  display: flex;
+
+}
+
+.program-list li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 3px;
+  min-height: 90px;
+  background-color: rgb(211, 211, 211, 0.2);
+  width: 40%;
+  min-height: 140px;
+  padding: 20px;
+}
+
+.flex1, .flex2, .flex3 {
+  margin: 4px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.flex1 {
+  width:48px;
+  height: 48px;
+  
+}
+
+.flex2 {
+  min-width: 25%;
+  overflow: hidden;
+  color: #EC5242;
+  margin-top: 10px
+}
+
+.flex3 {
+  min-width: 50%;
+  overflow: hidden;
+  color: #272A31;
+  text-align: center;
+  margin-top: 10px;
+  line-height: 20px;
+  color: white;
+}
+
+.show-more-courses {
+  display: block;
+  margin: 0 auto;
+  background: none;
+  color: white;
+  border: none;
+  text-decoration: underline;
+  margin-bottom: 60px;
+}
+
+/******************* Our Tutors *******************/
+
+.tutors-title {
+  text-align: center;
+  font-weight: bold;
+  color: red;
+}
+
+.grid-tutors {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 60px;
+  grid-column-gap: 10px;
+  grid-row-gap: 60px;
+
+}
+
+.grid-pro-1 {
+  grid-area: image;
+  width: 100px;
+  height: 100px;
+  background-color: orange;
+  border: solid;
+  margin: 0;
+  display: block;
+  
+}
+
+.grid-pro-2 {
+  grid-area: name;
+  border: solid;
+  margin: 0;
+  margin-left: 0;
+}
+
+.grid-pro-3 {
+  grid-area: profession;
+  border: solid;
+  margin: 0;
+}
+
+.grid-pro-4 {
+  grid-area: description;
+  border: solid;
+  margin: 0;
+}
+
+.grid-profiles {
+  display: grid;
+  grid-template-areas: 
+  'image name name name name  name name'
+  'image profession profession profession profession profession profession'
+  'image description description description description description description';
+  border: solid;
+  margin: 0 auto;
+  width: 100%;
+
+}
+
+.grid-profiles p {
+  font-size: 12px;
+  margin-left: 10px;
+  padding: 3px
+}
+
+.more-tutors {
+  display: none;
+}

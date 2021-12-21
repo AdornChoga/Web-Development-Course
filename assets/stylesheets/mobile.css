@@ -68,6 +68,7 @@ header {
 
 .main-program hr, .tutors hr {
   width: 40px;
+  border: 1px solid #EC5242;
 }
 
 .program-list {
@@ -120,6 +121,12 @@ header {
   font-weight: bold;
   color: red;
 }
+
+.tutor2 ~ .grid-profiles {
+  display: none;
+  
+}
+
 .grid-pro-1 {
   grid-area: image;
   width: 100px;
