@@ -288,3 +288,103 @@ footer div:last-child p {
   margin-right: 100px;
 
 }
+
+/************************ About Section ************************/
+
+.body {
+  background-color: #e6e4e4;
+}
+
+.description {
+  background-color: #e6e4e4;
+  padding: 20px 20px 20px 150px;
+  text-align: center;
+}
+
+.description h1 {
+  color: orangered;
+  font-size: 50px;
+  font-family: sans-serif;
+  padding: 20px;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.description > p {
+  border: 2px solid gray;
+  padding: 15px;
+  margin: 20px;
+  background-color: white;
+  width: 70%;
+  margin: 0 auto;
+
+}
+
+.contact-us {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.contact-us p {
+  padding: 0 15px;
+  line-height: 32px;
+}
+
+.testimonies {
+  background-color: white;
+  padding: 20px 20px 20px 150px;
+}
+
+.testimonies-title {
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.testimonies-intro {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.testimonies-cards {
+  margin-left: 170px;
+  margin-top: 90px;
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+}
+
+.card1 {
+  background-image: linear-gradient(rgba(236, 82, 66, 0.6), rgba(236, 82, 66, 0.6)),url(../images/2020.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 365px;
+  height: 210px;  
+  position: relative;
+}
+
+.card2 {
+  background-image: linear-gradient(rgba(236, 82, 66, 0.6), rgba(236, 82, 66, 0.6)), url(../images/2019.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 365px;
+  height: 210px;
+  position: relative;
+}
+
+.year {
+  color: white;
+  position: absolute;
+  top: 40px;
+  left: 150px;
+}
+
+.statistics {
+  color: white;
+  position: absolute;
+  top: 80px;
+  left: 80px;
+}
+
+
+

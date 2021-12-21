@@ -6,12 +6,32 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="https://kit.fontawesome.com/2b1476549e.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="assets/stylesheets/mobile.css" media="screen and (max-width: 768px)">
+  <link rel="stylesheet" href="assets/stylesheets/desktop.css" media="screen and (min-width: 768px)">
   <title> About Page</title>
 </head>
 <body>
   <header>
-    <nav>
+    <nav class="mobile-header">
       <i class="fas fa-bars menu-icon"></i>
+    </nav>
+    <div class="desktop-header-icons">
+      <ul>
+        <li><a><i class="fab fa-facebook-f"></i></a></li>
+        <li><a><i class="fab fa-twitter"></i> </a></li>
+        <li>English</li>
+        <li>My Page</li>
+        <li>Logout</li>
+      </ul>
+    </div>
+    <nav class="desktop-header-nav">
+      <a href="#"><img src="./assets/images/gst.png"></a>
+      <ul>
+        <li>About</li>
+        <li>Courses</li>
+        <li>Apply</li>
+        <li>Sponsor</li>
+        <li>FAQ</li>
+      </ul>
     </nav>
   </header>
 
@@ -39,18 +59,18 @@
       <p class="testimonies-title">
         See the GST graduates testimonies.
       </p>
-      <p>
+      <p class="testimonies-intro">
         Take a look at what our students from the past two years who have already landed 
        have to say about Global School of Tech.
       </p>
       <div class="testimonies-cards">
-        <div>
-          <h1>2020</h1>
-          <p>96% of our students got employed</p>
+        <div class="card1">
+          <h1 class="year">2020</h1>
+          <p class="statistics">96% of our students got employed</p>
         </div>
-        <div>
-          <h1>2019</h1>
-          <p>89% of our students got employed</p>
+        <div class="card2">
+          <h1 class="year">2019</h1>
+          <p class="statistics">89% of our students got employed</p>
         </div>
       </div>
     </section>
