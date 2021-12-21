@@ -1,3 +1,71 @@
 /******************* Header *********************/
 
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.mobile-header {
+  display: none;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  margin-top: 0;
+  border-bottom: 1px solid black;
+}
+
+.desktop-header-icons {
+  width: 100%;
+  padding: 0;
+  background-color: rgb(62,62,62);
+}
+
+.desktop-header-icons ul {
+  display: flex;
+  justify-content: flex-end;
+  list-style-type: none;
+  margin: 0;
+  padding-right: 155px;
+}
+
+.desktop-header-icons ul li {
+  margin: 5px 10px 5px 10px;
+  color: white;
+}
+
+.desktop-header-nav {
+  width: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+}
+
+.desktop-header-nav img {
+  width: 48px;
+  height: 48px;
+}
+
+.desktop-header-nav ul{
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.desktop-header-nav ul li {
+  margin-left: 60px
+}
+
+main {
+  margin-top: 100px;
+}
+
+
 

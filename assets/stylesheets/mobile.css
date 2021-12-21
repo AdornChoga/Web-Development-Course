@@ -21,7 +21,9 @@ header {
   font-size:30px;
 }
 
-
+.desktop-header-icons, .desktop-header-nav{
+  display: none;
+}
 
 .intro {
   background-image: linear-gradient(rgba(211, 211, 211, 0.9), rgba(211, 211, 211, 0.9)),url(../images/webmobile.jpg);
