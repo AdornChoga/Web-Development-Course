@@ -239,3 +239,52 @@ main {
 .more-tutors {
   display: none;
 }
+
+/********************** Footer ********************/
+
+footer {
+  background-color: white;
+}
+
+.partner {
+  background-color: rgb(62,62,62);
+  height: 140px;
+}
+
+.partner p {
+  text-align: center;
+}
+
+.partner ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding: 0;
+}
+
+.partner ul li {
+  font-size: 20px;
+  margin: 10px;
+}
+
+
+footer div:last-child {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
+
+footer div:last-child p {
+  color: #272A31;
+  margin-left: 100px;
+}
+
+.footer-logo {
+  display: block;
+  width: 38px;
+  height: 38px;
+  margin-right: 100px;
+
+}
