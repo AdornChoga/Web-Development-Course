@@ -47,3 +47,60 @@ header {
   font-size: 20px;
   line-height: 30px;
 }
+
+/******************* Main Program ********************/
+
+.main-program {
+  background-image: url(../images/mainprogram.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: solid;
+}
+
+.main-program > p {
+  text-align: center;
+  font-size: 17px;
+  font-weight: bold;
+  color: #d3d3d3
+}
+
+.main-program hr, .tutors hr {
+  width: 40px;
+}
+
+.program-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.program-list li {
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  min-height: 90px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.flex1, .flex2, .flex3 {
+  margin: 3px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.flex1 {
+  width:48px;
+  height: 48px;
+}
+
+.flex2 {
+  min-width: 25%;
+  overflow: hidden;
+  color: #EC5242 
+}
+
+.flex3 {
+  min-width: 50%;
+  overflow: hidden;
+  color: #272A31;
+}
