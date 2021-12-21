@@ -22,6 +22,14 @@ header {
   border-bottom: 1px solid black;
 }
 
+header a {
+  text-decoration: none;
+}
+
+header nav a {
+  color: #272A31;
+}
+
 .desktop-header-icons {
   width: 100%;
   padding: 0;
@@ -78,18 +86,20 @@ main {
 .intro h1 {
   color: rgb(236, 82, 66);
   font-size: 62px;
-  font-family: sans-serif;
+  font-family: 'COCOGOOSE', sans-serif;                                         
   padding: 10px;
   width: 60%;
 }
 
 .intro p {
-  padding: 5px;
+  padding: 15px;
   color: #272A31;
-  border: 2px solid gray;
+  border: 2px solid white;
   font-size: 20px;
   line-height: 30px;
   width: 60%;
+  font-family: 'Lato', sans-serif;
+                                                
 }
 
 /*************Main Program **************/
@@ -105,7 +115,8 @@ main {
   text-align: center;
   font-size: 17px;
   font-weight: bold;
-  color: #d3d3d3
+  color: #d3d3d3;
+  font-family: 'Lato', sans-serif;                                    
 }
 
 .main-program hr, .tutors hr {
@@ -148,7 +159,8 @@ main {
   min-width: 25%;
   overflow: hidden;
   color: #EC5242;
-  margin-top: 10px
+  margin-top: 10px;
+  font-family: 'Lato', sans-serif;                           
 }
 
 .flex3 {
@@ -159,6 +171,9 @@ main {
   margin-top: 10px;
   line-height: 20px;
   color: white;
+  font-size: 11px;
+  font-family: 'Lato', sans-serif;
+                                                
 }
 
 .show-more-courses {
@@ -169,6 +184,8 @@ main {
   border: none;
   text-decoration: underline;
   margin-bottom: 60px;
+  font-family: 'Lato', sans-serif;
+                                                
 }
 
 /******************* Our Tutors *******************/
@@ -176,7 +193,9 @@ main {
 .tutors-title {
   text-align: center;
   font-weight: bold;
-  color: red;
+  color: #EC5242;
+  font-family: 'Lato', sans-serif;
+                                                
 }
 
 .grid-tutors {
@@ -185,7 +204,7 @@ main {
   padding: 60px;
   grid-column-gap: 10px;
   grid-row-gap: 60px;
-
+  font-family: 'Lato', sans-serif;                      
 }
 
 .grid-pro-1 {
@@ -203,13 +222,17 @@ main {
   grid-area: name;
   border: solid;
   margin: 0;
-  margin-left: 0;
+  font-weight: bold;
 }
 
 .grid-pro-3 {
   grid-area: profession;
   border: solid;
   margin: 0;
+  font-size: 10px;
+  font-style: italic;
+  color: #EC5242;
+  font-weight: bold;
 }
 
 .grid-pro-4 {
@@ -279,6 +302,7 @@ footer div:last-child {
 footer div:last-child p {
   color: #272A31;
   margin-left: 100px;
+  font-family: 'Lato', sans-serif;                                       
 }
 
 .footer-logo {
