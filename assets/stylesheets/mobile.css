@@ -253,3 +253,48 @@ header {
   left: 45px;
   color: white;
 }
+
+footer {
+  margin-top: 290px;
+  background-color: white;
+}
+
+.partner {
+  background-color: #d3d3d3;
+  height: 140px;
+}
+
+.partner p {
+  text-align: center;
+}
+
+.partner ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding: 0;
+}
+
+.partner ul li {
+  font-size: 20px;
+  margin: 10px;
+}
+
+
+footer div:last-child {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer div:last-child p {
+  width: 60%;
+}
+
+.footer-logo {
+  display: block;
+  width: 38px;
+  height: 38px;
+  margin-left: 20px;
+  margin: 20px;
+}
