@@ -180,3 +180,34 @@ header {
 
 /************************ About Page ************************/
 
+.body {
+  background-color: #e6e4e4;
+}
+
+.description {
+  background-color: #e6e4e4;
+}
+
+.description h1 {
+  color: orangered;
+  font-size: 40px;
+  font-family: sans-serif;
+  padding: 20px;
+}
+
+.description > p {
+  border: 2px solid gray;
+  padding: 15px;
+  margin: 20px;
+  background-color: white;
+}
+
+.contact-us {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.contact-us p {
+  padding: 0 15px;
+  line-height: 32px;
+}
