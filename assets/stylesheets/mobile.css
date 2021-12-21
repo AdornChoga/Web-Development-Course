@@ -104,3 +104,76 @@ header {
   overflow: hidden;
   color: #272A31;
 }
+
+/******************* Tutors *****************/
+
+.tutors {
+  margin-top: 30px;
+  padding: 10px;
+  
+}
+
+.tutors-title {
+  text-align: center;
+  font-weight: bold;
+  color: red;
+}
+.grid-pro-1 {
+  grid-area: image;
+  width: 100px;
+  height: 100px;
+  background-color: orange;
+  border: solid;
+  margin: 0;
+  display: block;
+  
+}
+
+.grid-pro-2 {
+  grid-area: name;
+  border: solid;
+  margin: 0;
+  margin-left: 0;;
+}
+
+.grid-pro-3 {
+  grid-area: profession;
+  border: solid;
+  margin: 0;
+}
+
+.grid-pro-4 {
+  grid-area: description;
+  border: solid;
+  margin: 0;
+}
+
+.grid-profiles {
+  display: grid;
+  grid-template-areas: 
+  'image name name name name  name name'
+  'image profession profession profession profession profession profession'
+  'image description description description description description description';
+  border: solid;
+  margin: 20px 0px;
+
+}
+
+.grid-profiles p {
+  font-size: 12px;
+  margin-left: 10px;
+  padding: 3px
+}
+
+.more-tutors {
+  border: 2px solid gray;
+  border-radius: 3px;
+  text-align: center;
+  width: 100%;
+  background-color: white;
+  padding: 8px;
+}
+
+.more-tutors i {
+  color: orange;
+}
