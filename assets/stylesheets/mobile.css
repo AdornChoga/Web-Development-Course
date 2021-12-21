@@ -211,3 +211,45 @@ header {
   padding: 0 15px;
   line-height: 32px;
 }
+
+.testimonies {
+  background-color: white;
+  padding: 20px;
+}
+
+.testimonies-title {
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.testimonies div:first-child {
+  background-image: linear-gradient(rgba(236, 82, 66, 0.6), rgba(236, 82, 66, 0.6)),url(../images/2020.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 190px;
+  position: relative;
+}
+
+.testimonies div:last-child {
+  background-image: linear-gradient(rgba(236, 82, 66, 0.6), rgba(236, 82, 66, 0.6)), url(../images/2019.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 190px;
+  position: relative;
+  margin-top: 30px;
+}
+
+.testimonies div h1 {
+  position: absolute;
+  top: 40px;
+  left: 130px;
+  color: white;
+}
+
+.testimonies div p {
+  position: absolute;
+  top: 80px;
+  left: 45px;
+  color: white;
+}
