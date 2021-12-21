@@ -20,3 +20,30 @@ header {
 .menu-icon {
   font-size:30px;
 }
+
+
+
+.intro {
+  background-image: linear-gradient(rgba(211, 211, 211, 0.9), rgba(211, 211, 211, 0.9)),url(../images/webmobile.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  margin: 0;
+  border: solid;
+  padding-top: 30px;
+}
+
+.intro h1 {
+  color: #EC5242;
+  font-size: 52px;
+  font-family: sans-serif;
+  padding: 10px;
+}
+
+.intro p {
+  padding: 5px;
+  color: #272A31;
+  border: 2px solid gray;
+  font-size: 20px;
+  line-height: 30px;
+}
