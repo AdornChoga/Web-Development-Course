@@ -19,7 +19,9 @@ header {
   width: 100%;
   top: 0;
   margin-top: 0;
-  border-bottom: 1px solid black;
+  font-family: 'Lato', sans-serif;
+  font-size: 14px;
+
 }
 
 header a {
@@ -119,7 +121,7 @@ main {
   font-family: 'Lato', sans-serif;                                    
 }
 
-.main-program hr, .tutors hr, .partner hr {
+.main-program hr, .tutors hr, .partner hr, .testimonies hr {
   width: 40px;
   border: 1px solid #EC5242;
 }
@@ -284,7 +286,8 @@ main {
 }
 
 .desktop-footer {
-  background-color: rgb(62,62,62);
+  background-color: rgb(46,46,46);
+  margin-top: 60px;
 }
 
 .desktop-footer div:last-child p {
@@ -323,7 +326,7 @@ footer div:last-child {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100px;
+  height: 150px;
 }
 
 footer div:last-child p {
@@ -354,10 +357,11 @@ footer div:last-child p {
 .description h1 {
   color: orangered;
   font-size: 50px;
-  font-family: sans-serif;
+  font-weight: 400px;
   padding: 20px;
   width: 70%;
   margin: 0 auto;
+  font-family: 'COCOGOOSE', sans-serif;
 }
 
 .description > p {
@@ -367,6 +371,7 @@ footer div:last-child p {
   background-color: white;
   width: 70%;
   margin: 0 auto;
+  font-family: 'Lato', sans-serif;
 
 }
 
@@ -378,6 +383,7 @@ footer div:last-child p {
 .contact-us p {
   padding: 0 15px;
   line-height: 32px;
+  font-family: 'Lato', sans-serif;
 }
 
 .testimonies {
@@ -389,11 +395,13 @@ footer div:last-child p {
   text-align: center;
   font-weight: bold;
   font-size: 20px;
+  font-family: 'Lato', sans-serif;
 }
 
 .testimonies-intro {
   width: 70%;
   margin: 0 auto;
+  font-family: 'Lato', sans-serif;
 }
 
 .testimonies-cards {
@@ -427,6 +435,7 @@ footer div:last-child p {
   position: absolute;
   top: 40px;
   left: 150px;
+  font-family: 'Lato', sans-serif;
 }
 
 .statistics {
@@ -434,6 +443,7 @@ footer div:last-child p {
   position: absolute;
   top: 80px;
   left: 80px;
+  font-family: 'Lato', sans-serif;
 }
 
 
