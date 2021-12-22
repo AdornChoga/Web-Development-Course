@@ -105,9 +105,10 @@ main {
 /*************Main Program **************/
 
 .main-program {
-  background-color: rgb(39,42,49);
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-image: url(../images/main-bg.png), linear-gradient(rgb(39,42,49),rgb(39,42,49));
+  background-repeat: repeat;
+  /* background-color: rgb(39,42,49); */
+  background-size: 20px;
   border: solid;
 }
 
@@ -119,7 +120,7 @@ main {
   font-family: 'Lato', sans-serif;                                    
 }
 
-.main-program hr, .tutors hr {
+.main-program hr, .tutors hr, .partner hr {
   width: 40px;
   border: 1px solid #EC5242;
 }
@@ -208,49 +209,56 @@ main {
 }
 
 .grid-pro-1 {
-  grid-area: image;
-  width: 100px;
-  height: 100px;
-  background-color: orange;
-  border: solid;
+  width: 20%;
+  height: 100%;
   margin: 0;
-  display: block;
+  border-top:10px solid transparent;
+  border-left: 10px solid transparent;
+  border-image: url('../images/chess.jpg') 40% round;
+  
   
 }
 
 .grid-pro-2 {
-  grid-area: name;
-  border: solid;
   margin: 0;
   font-weight: bold;
+  word-break: break-all;
 }
 
 .grid-pro-3 {
-  grid-area: profession;
-  border: solid;
   margin: 0;
   font-size: 10px;
   font-style: italic;
   color: #EC5242;
   font-weight: bold;
+  word-break: break-all;
 }
 
 .grid-pro-4 {
-  grid-area: description;
-  border: solid;
+  word-break: break-all;
   margin: 0;
 }
 
 .grid-profiles {
-  display: grid;
-  grid-template-areas: 
-  'image name name name name  name name'
-  'image profession profession profession profession profession profession'
-  'image description description description description description description';
   border: solid;
   margin: 0 auto;
   width: 100%;
+}
 
+.grid-profiles div::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+.grid-profiles div {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  float: right;
+  clear: both;
+  width: 80%;
 }
 
 .grid-profiles p {
