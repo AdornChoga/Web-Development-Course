@@ -74,8 +74,8 @@ header {
   background-size: cover;
   height: 100%;
   margin: 0;
-  border: solid;
   padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .intro h1 {
@@ -86,20 +86,23 @@ header {
 }
 
 .intro p {
-  padding: 5px;
+  padding: 10px;
   color: #272A31;
-  border: 2px solid gray;
+  border: 2px solid white;
   font-size: 20px;
   line-height: 30px;
+  margin-left: 15px;
+  margin-right: 15px;
 }
 
 /******************* Main Program ********************/
 
 .main-program {
-  background-image: url(../images/mainprogram.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-image: url(../images/main-bg.png), linear-gradient(rgb(39,42,49),rgb(39,42,49));
+  background-repeat: repeat;
+  background-size: 30px;
   border: solid;
+  padding-bottom: 30px;
 }
 
 .main-program > p {
@@ -151,6 +154,20 @@ header {
   color: #272A31;
 }
 
+.join-gst {
+  display: block;
+  margin: 0 auto;
+  border: none;
+  background: #EC5242;
+  padding: 20px 30px;
+  color: white;
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  margin-top: 30px;
+                                                
+
+}
+
 /******************* Tutors *****************/
 
 .tutors {
@@ -171,42 +188,58 @@ header {
 }
 
 .grid-pro-1 {
-  grid-area: image;
-  width: 100px;
-  height: 100px;
-  background-color: orange;
-  border: solid;
+  width: 30%;
+  height: 100%;
   margin: 0;
-  display: block;
+  border-top:10px solid transparent;
+  border-left: 10px solid transparent;
+  border-image: url('../images/chess.jpg') 40% round;
+  
   
 }
 
 .grid-pro-2 {
-  grid-area: name;
-  border: solid;
   margin: 0;
-  margin-left: 0;;
+  font-weight: bold;
+  word-break: break-all;
 }
 
 .grid-pro-3 {
-  grid-area: profession;
-  border: solid;
   margin: 0;
+  font-size: 10px;
+  font-style: italic;
+  color: #EC5242;
+  font-weight: bold;
+  word-break: break-all;
 }
 
 .grid-pro-4 {
-  grid-area: description;
-  border: solid;
+  word-break: break-all;
   margin: 0;
 }
 
 .grid-profiles {
-  display: grid;
-  grid-template-areas: 
-  'image name name name name  name name'
-  'image profession profession profession profession profession profession'
-  'image description description description description description description';
-  border: solid;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.grid-profiles div::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+.grid-profiles div {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  float: right;
+  clear: both;
+  width: 70%;
+}
+
+.grid-profiles {
   margin: 20px 0px;
 
 }

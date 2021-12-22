@@ -107,7 +107,6 @@ main {
 .main-program {
   background-image: url(../images/main-bg.png), linear-gradient(rgb(39,42,49),rgb(39,42,49));
   background-repeat: repeat;
-  /* background-color: rgb(39,42,49); */
   background-size: 20px;
   border: solid;
 }
@@ -175,6 +174,10 @@ main {
   font-size: 11px;
   font-family: 'Lato', sans-serif;
                                                 
+}
+
+.join-gst {
+  display: none;
 }
 
 .show-more-courses {
