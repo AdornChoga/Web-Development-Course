@@ -15,6 +15,7 @@ header {
   left: 10px;
   top: 10px;
   z-index: 2;
+  font-family: 'COCOGOOSE', sans-serif;
 }
 
 .js-menu {
@@ -80,9 +81,10 @@ header {
 
 .intro h1 {
   color: #EC5242;
-  font-size: 52px;
+  font-size: 40kpx;
   font-family: sans-serif;
   padding: 10px;
+  font-family: 'COCOGOOSE', sans-serif;
 }
 
 .intro p {
@@ -93,6 +95,7 @@ header {
   line-height: 30px;
   margin-left: 15px;
   margin-right: 15px;
+  font-family: 'Lato', sans-serif;
 }
 
 /******************* Main Program ********************/
@@ -109,10 +112,11 @@ header {
   text-align: center;
   font-size: 17px;
   font-weight: bold;
-  color: #d3d3d3
+  color: #d3d3d3;
+  font-family: 'Lato', sans-serif;
 }
 
-.main-program hr, .tutors hr, .partner hr {
+.main-program hr, .tutors hr, footer hr, .testimonies hr {
   width: 40px;
   border: 1px solid #EC5242;
 }
@@ -135,6 +139,7 @@ header {
   margin: 3px;
   font-size: 14px;
   font-weight: 600;
+  font-family: 'Lato', sans-serif;
 }
 
 .flex1 {
@@ -164,6 +169,7 @@ header {
   font-family: 'Lato', sans-serif;
   font-size: 20px;
   margin-top: 30px;
+  font-family: 'Lato', sans-serif;
                                                 
 
 }
@@ -179,6 +185,7 @@ header {
   text-align: center;
   font-weight: bold;
   color: red;
+  font-family: 'Lato', sans-serif;
 }
 
 .tutor2 ~ .grid-profiles {
@@ -196,8 +203,6 @@ header {
   border-top:10px solid transparent;
   border-left: 10px solid transparent;
   border-image: url('../images/chess.jpg') 40% round;
-  
-  
 }
 
 .grid-pro-2 {
@@ -316,6 +321,11 @@ header {
   text-align: center;
   font-weight: bold;
   font-size: 20px;
+  font-family: 'Lato', sans-serif;
+}
+
+.testimonies-intro {
+  font-family: 'Lato', sans-serif;
 }
 
 .card1 {
@@ -340,6 +350,7 @@ header {
   top: 40px;
   left: 130px;
   color: white;
+  font-family: 'Lato', sans-serif;
 }
 
 .testimonies div p {
@@ -347,19 +358,31 @@ header {
   top: 80px;
   left: 45px;
   color: white;
+  font-family: 'Lato', sans-serif;
 }
 
 footer {
   background-color: white;
+  font-family: 'Lato', sans-serif;
 }
 
 .partner {
-  background-color: #d3d3d3;
-  height: 140px;
+  background-color: rgb(68, 66, 66);
+  min-height: 140px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.partner img {
+  width: 60px;
+  height: 20px;
 }
 
 .partner p {
   text-align: center;
+  color: white;
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
 }
 
 .partner ul {
@@ -372,7 +395,7 @@ footer {
 
 .partner ul li {
   font-size: 20px;
-  margin: 10px;
+  margin: 10px 20px;
 }
 
 
