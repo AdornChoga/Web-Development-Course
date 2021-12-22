@@ -7,13 +7,25 @@
   <script src="https://kit.fontawesome.com/2b1476549e.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="assets/stylesheets/mobile.css" media="screen and (max-width: 768px)">
   <link rel="stylesheet" href="assets/stylesheets/desktop.css" media="screen and (min-width: 768px)">
-  <link href="http://fonts.cdnfonts.com/css/cocogoose" rel="stylesheet">           
+  <link href="http://fonts.cdnfonts.com/css/cocogoose" rel="stylesheet">
+  <link href="http://fonts.cdnfonts.com/css/lato" rel="stylesheet">      
   <title> Web Development Course</title>
 </head>
 <body>
   <header>
-    <nav class="mobile-header">
+    <nav class="mobile-header mobile-menu">
       <i class="fas fa-bars menu-icon"></i>
+      <div class="js-menu">
+        <i class="fas fa-times close-icon"></i>
+        <ul class="menu-list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="#courses">Courses</a></li>
+          <li><a href="#">Apply</a></li>
+          <li><a href="#">Sponsor</a></li>
+          <li><a href="#">FAQ</a></li>
+        </ul>
+      </div>
     </nav>
     <div class="desktop-header-icons">
       <ul>
@@ -190,7 +202,9 @@
       </p>
     </div>
   </footer>
-  <script scr="../js/menu.js"></script>
-  <script src="../js/tutors.js"></script>
+  
+  <script src="./assets/js/menu.js"></script>
+  <script src="./assets/js/tutors.js"></script>
+  
 </body>
 </html>

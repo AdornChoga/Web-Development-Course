@@ -17,6 +17,49 @@ header {
   z-index: 2;
 }
 
+.js-menu {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+  background-color: white;
+}
+
+.menu-list {
+  list-style-type: none;
+  padding-left: 40px;
+  margin-top: 50px;
+  font-family: 'Lato', sans-serif;
+  font-weight:700;
+  font-size: 20px;
+                                                
+}
+
+.menu-list li + li{
+  margin-top: 30px;
+}
+
+.menu-list a {
+  text-decoration: none;
+  color: #EC5242;
+}
+
+.close-icon {
+  font-size: 34px;
+  position: relative;
+  top: 5px;
+  left: 10px;
+}
+
+.menu .js-menu {
+  display: block;
+}
+
+.menu .menu-icon {
+  display: none;
+}
 .menu-icon {
   font-size:30px;
 }
@@ -66,7 +109,7 @@ header {
   color: #d3d3d3
 }
 
-.main-program hr, .tutors hr {
+.main-program hr, .tutors hr, .partner hr {
   width: 40px;
   border: 1px solid #EC5242;
 }
