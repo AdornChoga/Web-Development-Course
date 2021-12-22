@@ -54,7 +54,7 @@ function loadTutors() {
   
   for(let i = 0; i < tutors.length; i += 1) {
     container.innerHTML += `
-    <div class="grid-profiles tutor1">
+    <div class="grid-profiles tutor${i + 1}">
       <img src= ${tutors[i].img} alt="${tutors[i].alt}" class="grid-pro-1">
       <div>
         <p class="grid-pro-2">${tutors[i].tutorName}</p>
@@ -62,6 +62,9 @@ function loadTutors() {
         <p class="grid-pro-4">${tutors[i].description}</p>
     </div>`
   }
+
+  section.innerHTML += `<button type="button" class="more-tutors">More <i class="fas fa-angle-down"></i></button>`
+  
 }
 
 window.addEventListener('load', loadTutors)

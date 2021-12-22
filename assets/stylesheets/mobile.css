@@ -171,8 +171,7 @@ header {
 /******************* Tutors *****************/
 
 .tutors {
-  margin-top: 30px;
-  padding: 10px;
+  padding: 20px;
   
 }
 
@@ -184,7 +183,10 @@ header {
 
 .tutor2 ~ .grid-profiles {
   display: none;
-  
+}
+
+.show-less .tutor2 ~ .grid-profiles {
+  display: block;
 }
 
 .grid-pro-1 {
@@ -250,7 +252,7 @@ header {
   padding: 3px
 }
 
-.more-tutors {
+.more-tutors, .show-less {
   border: 2px solid gray;
   border-radius: 3px;
   text-align: center;
@@ -259,7 +261,7 @@ header {
   padding: 8px;
 }
 
-.more-tutors i {
+.more-tutors i, .show-less i {
   color: orange;
 }
 
@@ -267,6 +269,10 @@ header {
   display: none;
 }
 
+
+.mobile-footer {
+  display: none;
+}
 /************************ About Page ************************/
 
 .body {
@@ -312,7 +318,7 @@ header {
   font-size: 20px;
 }
 
-.testimonies div:first-child {
+.card1 {
   background-image: linear-gradient(rgba(236, 82, 66, 0.6), rgba(236, 82, 66, 0.6)),url(../images/2020.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -320,7 +326,7 @@ header {
   position: relative;
 }
 
-.testimonies div:last-child {
+.card2 {
   background-image: linear-gradient(rgba(236, 82, 66, 0.6), rgba(236, 82, 66, 0.6)), url(../images/2019.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -344,7 +350,6 @@ header {
 }
 
 footer {
-  margin-top: 290px;
   background-color: white;
 }
 

@@ -275,9 +275,26 @@ main {
 
 /********************** Footer ********************/
 
-footer {
-  background-color: white;
+.about-footer {
+   background-color: white;
 }
+
+.desktop-partner {
+  display: none;
+}
+
+.desktop-footer {
+  background-color: rgb(62,62,62);
+}
+
+.desktop-footer div:last-child p {
+  color: rgb(62,62,62);
+}
+
+.about-footer div:last-child p {
+  color: white;
+}
+
 
 .partner {
   background-color: rgb(62,62,62);
@@ -310,7 +327,6 @@ footer div:last-child {
 }
 
 footer div:last-child p {
-  color: #272A31;
   margin-left: 100px;
   font-family: 'Lato', sans-serif;                                       
 }
