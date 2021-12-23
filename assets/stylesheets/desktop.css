@@ -457,6 +457,9 @@ footer div:last-child {
 .testimonies-intro {
   margin: 0 auto;
   font-family: 'Lato', sans-serif;
+  text-align: center;
+  width: 70%;
+  padding: 0 100px;
 }
 
 .testimonies-cards {
