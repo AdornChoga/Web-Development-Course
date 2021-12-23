@@ -5,17 +5,13 @@
 
 > This is a website for recruiting and teaching students web-development.
 
-![screenshot](./app_screenshot.png)
-
-Additional description about the project and its features.
-
 ## Built With
 
 - HTML , CSS and JavaScript.
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://asanchy.github.io/Web-Development-Course/)
 
 
 ## Getting Started
