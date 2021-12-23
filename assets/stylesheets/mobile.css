@@ -286,7 +286,7 @@ footer hr,
 
 .more-tutors i,
 .show-less i {
-  color: orange;
+  color: #EC5252;
 }
 
 .show-more-courses {
@@ -309,7 +309,7 @@ footer hr,
 }
 
 .description h1 {
-  color: orangered;
+  color: #EC5252;
   font-size: 40px;
   font-family: sans-serif;
   padding: 40px 20px 20px 20px;
