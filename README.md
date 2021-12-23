@@ -11,7 +11,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://asanchy.github.io/Web-Development-Course/)
+[Live Demo Link]()
 
 
 ## Getting Started
