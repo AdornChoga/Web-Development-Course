@@ -116,7 +116,7 @@ header {
   font-family: 'Lato', sans-serif;
 }
 
-.main-program hr, .tutors hr, footer hr, .testimonies hr {
+.main-program hr, .tutors hr, footer hr, .testimonies hr, .logo-descript hr {
   width: 40px;
   border: 1px solid #EC5242;
 }
@@ -177,8 +177,8 @@ header {
 /******************* Tutors *****************/
 
 .tutors {
-  padding: 20px;
-  
+  padding-left: 6%;
+  padding-right: 6%;
 }
 
 .tutors-title {
@@ -197,32 +197,50 @@ header {
 }
 
 .grid-pro-1 {
-  width: 30%;
+  width: 100%;
   height: 100%;
   margin: 0;
-  border-top:10px solid transparent;
-  border-left: 10px solid transparent;
-  border-image: url('../images/chess.jpg') 40% round;
+  padding-left: 12px;
+  padding-top: 12px;
+  object-fit: cover;
+  object-position: bottom;
+}
+
+.image-container {
+  background-image: url('../images/chess.jpg');
+  background-size: 40% 40%;
+  background-repeat: no-repeat;
+  background-position-x: 0;
+  background-position-y: 0;
+  padding: 0;  
 }
 
 .grid-pro-2 {
   margin: 0;
   font-weight: bold;
   word-break: break-all;
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
 }
 
 .grid-pro-3 {
   margin: 0;
-  font-size: 10px;
+  font-size: 12px;
   font-style: italic;
   color: #EC5242;
   font-weight: bold;
   word-break: break-all;
+  font-family: 'Lato', sans-serif;
+  line-height:20px;
 }
 
 .grid-pro-4 {
   word-break: break-all;
   margin: 0;
+  font-family: 'Lato', sans-serif;
+  font-size: 13px;
+  line-height:20px;
+  font-weight: bold;
 }
 
 .grid-profiles {
@@ -230,29 +248,30 @@ header {
   width: 100%;
 }
 
-.grid-profiles div::after {
+.profile-info::after {
   content: "";
   clear: both;
   display: block;
 }
 
-.grid-profiles div {
+.profile-info {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  justify-content: center;
   float: right;
   clear: both;
-  width: 70%;
+  padding-top: 5px;
 }
 
 .grid-profiles {
-  margin: 20px 0px;
-
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .grid-profiles p {
-  font-size: 12px;
   margin-left: 10px;
   padding: 3px
 }
@@ -312,9 +331,35 @@ header {
   line-height: 32px;
 }
 
+.about-logo {
+  background-color: white;
+}
+
+.logo-descript {
+  margin: 0 auto;
+  width: 70%;
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.logo {
+  margin: 0 auto;
+  width: 70%;
+  border: 1px solid rgb(179, 177, 177);
+  text-align: center;
+  margin-bottom: 50px;
+  padding: 10px;
+}
+
+.logo img {
+  max-width: 30%;
+  height: auto;
+}
+
 .testimonies {
   background-color: white;
-  padding: 20px;
+  padding: 0 20px 20px 20px;
 }
 
 .testimonies-title {
@@ -410,8 +455,8 @@ footer div:last-child p {
 
 .footer-logo {
   display: block;
-  width: 38px;
-  height: 38px;
+  width: 48px;
+  height: 48px;
   margin-left: 20px;
   margin: 20px;
 }

@@ -55,8 +55,10 @@ function loadTutors() {
   for(let i = 0; i < tutors.length; i += 1) {
     container.innerHTML += `
     <div class="grid-profiles tutor${i + 1}">
+      <div class="image-container">
       <img src= ${tutors[i].img} alt="${tutors[i].alt}" class="grid-pro-1">
-      <div>
+      </div>
+      <div class="profile-info">
         <p class="grid-pro-2">${tutors[i].tutorName}</p>
         <p class="grid-pro-3">${tutors[i].skill}</p>
         <p class="grid-pro-4">${tutors[i].description}</p>
