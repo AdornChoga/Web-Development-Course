@@ -33,18 +33,26 @@ header {
   padding-left: 40px;
   margin-top: 50px;
   font-family: 'Lato', sans-serif;
-  font-weight:700;
+  font-weight: 700;
   font-size: 20px;
-                                                
 }
 
-.menu-list li + li{
+.program-list li {
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  min-height: 90px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.menu-list li + li {
   margin-top: 30px;
 }
 
 .menu-list a {
   text-decoration: none;
-  color: #EC5242;
+  color: #ec5242;
 }
 
 .close-icon {
@@ -58,19 +66,21 @@ header {
   display: block;
 }
 
+.menu-icon {
+  font-size: 30px;
+}
+
 .menu .menu-icon {
   display: none;
 }
-.menu-icon {
-  font-size:30px;
-}
 
-.desktop-header-icons, .desktop-header-nav{
+.desktop-header-icons,
+.desktop-header-nav {
   display: none;
 }
 
 .intro {
-  background-image: linear-gradient(rgba(211, 211, 211, 0.9), rgba(211, 211, 211, 0.9)),url(../images/webmobile.jpg);
+  background-image: linear-gradient(rgba(211, 211, 211, 0.9), rgba(211, 211, 211, 0.9)), url(../images/webmobile.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 100%;
@@ -80,16 +90,15 @@ header {
 }
 
 .intro h1 {
-  color: #EC5242;
-  font-size: 40kpx;
-  font-family: sans-serif;
+  color: #ec5242;
+  font-size: 40px;
   padding: 10px;
   font-family: 'COCOGOOSE', sans-serif;
 }
 
 .intro p {
   padding: 10px;
-  color: #272A31;
+  color: #272a31;
   border: 2px solid white;
   font-size: 20px;
   line-height: 30px;
@@ -101,7 +110,7 @@ header {
 /******************* Main Program ********************/
 
 .main-program {
-  background-image: url(../images/main-bg.png), linear-gradient(rgb(39,42,49),rgb(39,42,49));
+  background-image: url(../images/main-bg.png), linear-gradient(rgb(39, 42, 49), rgb(39, 42, 49));
   background-repeat: repeat;
   background-size: 30px;
   border: solid;
@@ -116,9 +125,13 @@ header {
   font-family: 'Lato', sans-serif;
 }
 
-.main-program hr, .tutors hr, footer hr, .testimonies hr, .logo-descript hr {
+footer hr,
+.main-program hr,
+.tutors hr,
+.testimonies hr,
+.logo-descript hr {
   width: 40px;
-  border: 1px solid #EC5242;
+  border: 1px solid #ec5242;
 }
 
 .program-list {
@@ -126,16 +139,9 @@ header {
   padding: 0;
 }
 
-.program-list li {
-  border: 1px solid black;
-  display: flex;
-  align-items: center;
-  margin: 10px;
-  min-height: 90px;
-  background-color: rgba(255, 255, 255, 0.5);
-}
-
-.flex1, .flex2, .flex3 {
+.flex1,
+.flex2,
+.flex3 {
   margin: 3px;
   font-size: 14px;
   font-weight: 600;
@@ -143,35 +149,32 @@ header {
 }
 
 .flex1 {
-  width:48px;
+  width: 48px;
   height: 48px;
 }
 
 .flex2 {
   min-width: 25%;
   overflow: hidden;
-  color: #EC5242 
+  color: #ec5242;
 }
 
 .flex3 {
   min-width: 50%;
   overflow: hidden;
-  color: #272A31;
+  color: #272a31;
 }
 
 .join-gst {
   display: block;
   margin: 0 auto;
   border: none;
-  background: #EC5242;
+  background: #ec5242;
   padding: 20px 30px;
   color: white;
   font-family: 'Lato', sans-serif;
   font-size: 20px;
   margin-top: 30px;
-  font-family: 'Lato', sans-serif;
-                                                
-
 }
 
 /******************* Tutors *****************/
@@ -186,6 +189,14 @@ header {
   font-weight: bold;
   color: red;
   font-family: 'Lato', sans-serif;
+}
+
+.grid-profiles {
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .tutor2 ~ .grid-profiles {
@@ -212,7 +223,7 @@ header {
   background-repeat: no-repeat;
   background-position-x: 0;
   background-position-y: 0;
-  padding: 0;  
+  padding: 0;
 }
 
 .grid-pro-2 {
@@ -227,11 +238,11 @@ header {
   margin: 0;
   font-size: 12px;
   font-style: italic;
-  color: #EC5242;
+  color: #ec5242;
   font-weight: bold;
   word-break: break-all;
   font-family: 'Lato', sans-serif;
-  line-height:20px;
+  line-height: 20px;
 }
 
 .grid-pro-4 {
@@ -239,13 +250,8 @@ header {
   margin: 0;
   font-family: 'Lato', sans-serif;
   font-size: 13px;
-  line-height:20px;
+  line-height: 20px;
   font-weight: bold;
-}
-
-.grid-profiles {
-  margin: 0 auto;
-  width: 100%;
 }
 
 .profile-info::after {
@@ -263,20 +269,13 @@ header {
   padding-top: 5px;
 }
 
-.grid-profiles {
-  margin: 0 auto;
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-
 .grid-profiles p {
   margin-left: 10px;
-  padding: 3px
+  padding: 3px;
 }
 
-.more-tutors, .show-less {
+.more-tutors,
+.show-less {
   border: 2px solid gray;
   border-radius: 3px;
   text-align: center;
@@ -285,7 +284,8 @@ header {
   padding: 8px;
 }
 
-.more-tutors i, .show-less i {
+.more-tutors i,
+.show-less i {
   color: orange;
 }
 
@@ -293,10 +293,10 @@ header {
   display: none;
 }
 
-
 .mobile-footer {
   display: none;
 }
+
 /************************ About Page ************************/
 
 .body {
@@ -374,7 +374,7 @@ header {
 }
 
 .card1 {
-  background-image: linear-gradient(rgba(236, 82, 66, 0.6), rgba(236, 82, 66, 0.6)),url(../images/2020.jpg);
+  background-image: linear-gradient(rgba(236, 82, 66, 0.6), rgba(236, 82, 66, 0.6)), url(../images/2020.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 190px;
@@ -396,6 +396,13 @@ header {
   left: 130px;
   color: white;
   font-family: 'Lato', sans-serif;
+}
+
+.partner p {
+  text-align: center;
+  color: white;
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
 }
 
 .testimonies div p {
@@ -423,13 +430,6 @@ footer {
   height: 20px;
 }
 
-.partner p {
-  text-align: center;
-  color: white;
-  font-family: 'Lato', sans-serif;
-  font-size: 20px;
-}
-
 .partner ul {
   display: flex;
   justify-content: center;
@@ -442,7 +442,6 @@ footer {
   font-size: 20px;
   margin: 10px 20px;
 }
-
 
 footer div:last-child {
   display: flex;
@@ -457,6 +456,5 @@ footer div:last-child p {
   display: block;
   width: 48px;
   height: 48px;
-  margin-left: 20px;
   margin: 20px;
 }

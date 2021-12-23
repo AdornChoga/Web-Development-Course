@@ -21,7 +21,6 @@ header {
   margin-top: 0;
   font-family: 'Lato', sans-serif;
   font-size: 14px;
-
 }
 
 header a {
@@ -29,13 +28,13 @@ header a {
 }
 
 header nav a {
-  color: #272A31;
+  color: #272a31;
 }
 
 .desktop-header-icons {
   width: 100%;
   padding: 0;
-  background-color: rgb(62,62,62);
+  background-color: rgb(62, 62, 62);
 }
 
 .desktop-header-icons ul {
@@ -44,6 +43,17 @@ header nav a {
   list-style-type: none;
   margin: 0;
   padding-right: 155px;
+}
+
+.program-list li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 3px;
+  min-height: 90px;
+  background-color: rgb(211, 211, 211, 0.2);
+  width: 40%;
+  padding: 20px;
 }
 
 .desktop-header-icons ul li {
@@ -63,14 +73,14 @@ header nav a {
   height: 48px;
 }
 
-.desktop-header-nav ul{
+.desktop-header-nav ul {
   list-style-type: none;
   display: flex;
   justify-content: flex-end;
 }
 
 .desktop-header-nav ul li {
-  margin-left: 60px
+  margin-left: 60px;
 }
 
 main {
@@ -78,18 +88,17 @@ main {
 }
 
 .intro {
-  background-image: linear-gradient(rgba(211, 211, 211, 0.9), rgba(211, 211, 211, 0.9)),url(../images/webdesktop.jpg);
+  background-image: linear-gradient(rgba(211, 211, 211, 0.9), rgba(211, 211, 211, 0.9)), url(../images/webdesktop.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   margin: 0;
   padding: 60px 150px 80px 150px;
 }
 
-
 .intro h1 {
   color: rgb(236, 82, 66);
   font-size: 62px;
-  font-family: 'COCOGOOSE', sans-serif;                                         
+  font-family: 'COCOGOOSE', sans-serif;
   padding: 10px;
   width: 60%;
   background-image: url(../images/fire.jpg);
@@ -102,19 +111,18 @@ main {
 
 .intro p {
   padding: 15px;
-  color: #272A31;
+  color: #272a31;
   border: 2px solid white;
   font-size: 20px;
   line-height: 30px;
   width: 60%;
   font-family: 'Lato', sans-serif;
-                                                
 }
 
-/*************Main Program **************/
+/************* Main Program **************/
 
 .main-program {
-  background-image: url(../images/main-bg.png), linear-gradient(rgb(39,42,49),rgb(39,42,49));
+  background-image: url(../images/main-bg.png), linear-gradient(rgb(39, 42, 49), rgb(39, 42, 49));
   background-repeat: repeat;
   background-size: 20px;
   border: solid;
@@ -125,64 +133,54 @@ main {
   font-size: 17px;
   font-weight: bold;
   color: #d3d3d3;
-  font-family: 'Lato', sans-serif;                                    
+  font-family: 'Lato', sans-serif;
 }
 
-.main-program hr, .tutors hr, .partner hr, .testimonies hr, .logo-descript hr {
+.main-program hr,
+.tutors hr,
+.partner hr,
+.testimonies hr,
+.logo-descript hr {
   width: 40px;
-  border: 1px solid #EC5242;
+  border: 1px solid #ec5242;
 }
 
 .program-list {
   list-style-type: none;
   padding: 20px 100px 30px 100px;
   display: flex;
-
 }
 
-.program-list li {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 3px;
-  min-height: 90px;
-  background-color: rgb(211, 211, 211, 0.2);
-  width: 40%;
-  min-height: 140px;
-  padding: 20px;
-}
-
-.flex1, .flex2, .flex3 {
+.flex1,
+.flex2,
+.flex3 {
   margin: 4px;
   font-size: 14px;
   font-weight: 600;
 }
 
 .flex1 {
-  width:48px;
+  width: 48px;
   height: 48px;
-  
 }
 
 .flex2 {
   min-width: 25%;
   overflow: hidden;
-  color: #EC5242;
+  color: #ec5242;
   margin-top: 10px;
-  font-family: 'Lato', sans-serif;                           
+  font-family: 'Lato', sans-serif;
 }
 
 .flex3 {
   min-width: 50%;
   overflow: hidden;
-  color: #272A31;
   text-align: center;
   margin-top: 10px;
   line-height: 20px;
   color: white;
   font-size: 11px;
   font-family: 'Lato', sans-serif;
-                                                
 }
 
 .join-gst {
@@ -198,7 +196,6 @@ main {
   text-decoration: underline;
   margin-bottom: 60px;
   font-family: 'Lato', sans-serif;
-                                                
 }
 
 /******************* Our Tutors *******************/
@@ -211,9 +208,8 @@ main {
 .tutors-title {
   text-align: center;
   font-weight: bold;
-  color: #EC5242;
+  color: #ec5242;
   font-family: 'Lato', sans-serif;
-                                                
 }
 
 .grid-tutors {
@@ -222,7 +218,7 @@ main {
   padding: 5%;
   grid-column-gap: 10px;
   grid-row-gap: 60px;
-  font-family: 'Lato', sans-serif;                     
+  font-family: 'Lato', sans-serif;
 }
 
 .grid-pro-1 {
@@ -241,7 +237,7 @@ main {
   background-repeat: no-repeat;
   background-position-x: 0;
   background-position-y: 0;
-  padding: 0; 
+  padding: 0;
 }
 
 .grid-pro-2 {
@@ -256,11 +252,11 @@ main {
   margin: 0;
   font-size: 12px;
   font-style: italic;
-  color: #EC5242;
+  color: #ec5242;
   font-weight: bold;
   word-break: break-all;
   font-family: 'Lato', sans-serif;
-  line-height:20px;
+  line-height: 20px;
 }
 
 .grid-pro-4 {
@@ -268,7 +264,7 @@ main {
   margin: 0;
   font-family: 'Lato', sans-serif;
   font-size: 13px;
-  line-height:20px;
+  line-height: 20px;
   font-weight: bold;
 }
 
@@ -305,7 +301,7 @@ main {
 /********************** Footer ********************/
 
 .about-footer {
-   background-color: white;
+  background-color: white;
 }
 
 .desktop-partner {
@@ -313,32 +309,54 @@ main {
 }
 
 .desktop-footer {
-  background-color: rgb(46,46,46);
+  background-color: rgb(46, 46, 46);
   margin-top: 60px;
-}
-
-.desktop-footer div:last-child p {
-  color: rgb(62,62,62);
-}
-
-.about-footer div:last-child p {
-  color: white;
-}
-
-
-.partner {
-  background-color: rgb(46,46,46);
-  min-height: 140px;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  font-family: 'Lato', sans-serif;  
-
 }
 
 .partner p {
   text-align: center;
   color: gray;
   font-size: 20px;
+}
+
+.description > p {
+  border: 2px solid gray;
+  padding: 15px;
+  background-color: white;
+  width: 70%;
+  margin: 0 auto;
+  font-family: 'Lato', sans-serif;
+}
+
+.contact-us p {
+  padding: 0 15px;
+  line-height: 32px;
+  font-family: 'Lato', sans-serif;
+}
+
+.logo-descript p {
+  padding: 0 65px;
+}
+
+footer div:last-child p {
+  margin-left: 100px;
+  font-family: 'Lato', sans-serif;
+}
+
+.desktop-footer div:last-child p {
+  color: rgb(62, 62, 62);
+}
+
+.about-footer div:last-child p {
+  color: white;
+}
+
+.partner {
+  background-color: rgb(46, 46, 46);
+  min-height: 140px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-family: 'Lato', sans-serif;
 }
 
 .partner ul {
@@ -356,7 +374,6 @@ main {
   margin-right: 30px;
 }
 
-
 footer div:last-child {
   display: flex;
   justify-content: center;
@@ -364,17 +381,11 @@ footer div:last-child {
   height: 150px;
 }
 
-footer div:last-child p {
-  margin-left: 100px;
-  font-family: 'Lato', sans-serif;                                       
-}
-
 .footer-logo {
   display: block;
   width: 68px;
   height: 68px;
   margin-right: 100px;
-
 }
 
 /************************ About Section ************************/
@@ -392,33 +403,16 @@ footer div:last-child p {
 .description h1 {
   color: orangered;
   font-size: 50px;
-  font-weight: 400px;
+  font-weight: 400;
   padding: 20px;
   width: 70%;
   margin: 0 auto;
   font-family: 'COCOGOOSE', sans-serif;
 }
 
-.description > p {
-  border: 2px solid gray;
-  padding: 15px;
-  margin: 20px;
-  background-color: white;
-  width: 70%;
-  margin: 0 auto;
-  font-family: 'Lato', sans-serif;
-
-}
-
 .contact-us {
   text-align: center;
   padding-bottom: 20px;
-}
-
-.contact-us p {
-  padding: 0 15px;
-  line-height: 32px;
-  font-family: 'Lato', sans-serif;
 }
 
 .about-logo {
@@ -432,10 +426,6 @@ footer div:last-child p {
   font-family: 'Lato', sans-serif;
   text-align: center;
   margin-bottom: 50px;
-}
-
-.logo-descript p {
-  padding: 0 65px;
 }
 
 .logo {
@@ -478,7 +468,7 @@ footer div:last-child p {
 }
 
 .card1 {
-  background-image: linear-gradient(rgba(236, 82, 66, 0.6), rgba(236, 82, 66, 0.6)),url(../images/2020.jpg);
+  background-image: linear-gradient(rgba(236, 82, 66, 0.6), rgba(236, 82, 66, 0.6)), url(../images/2020.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   width: 48%;
@@ -510,6 +500,3 @@ footer div:last-child p {
   left: 80px;
   font-family: 'Lato', sans-serif;
 }
-
-
-
