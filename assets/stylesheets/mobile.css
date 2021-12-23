@@ -1,0 +1,461 @@
+/* Home Page */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+header {
+  position: fixed;
+  left: 10px;
+  top: 10px;
+  z-index: 2;
+  font-family: 'COCOGOOSE', sans-serif;
+}
+
+.js-menu {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+  background-color: white;
+}
+
+.menu-list {
+  list-style-type: none;
+  padding-left: 40px;
+  margin-top: 50px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.program-list li {
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  min-height: 90px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.menu-list li + li {
+  margin-top: 30px;
+}
+
+.menu-list a {
+  text-decoration: none;
+  color: #ec5242;
+}
+
+.close-icon {
+  font-size: 34px;
+  position: relative;
+  top: 5px;
+  left: 10px;
+}
+
+.menu .js-menu {
+  display: block;
+}
+
+.menu-icon {
+  font-size: 30px;
+}
+
+.menu .menu-icon {
+  display: none;
+}
+
+.desktop-header-icons,
+.desktop-header-nav {
+  display: none;
+}
+
+.intro {
+  background-image: linear-gradient(rgba(211, 211, 211, 0.9), rgba(211, 211, 211, 0.9)), url(../images/webmobile.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  margin: 0;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.intro h1 {
+  color: #ec5242;
+  font-size: 40px;
+  padding: 10px;
+  font-family: 'COCOGOOSE', sans-serif;
+}
+
+.intro p {
+  padding: 10px;
+  color: #272a31;
+  border: 2px solid white;
+  font-size: 20px;
+  line-height: 30px;
+  margin-left: 15px;
+  margin-right: 15px;
+  font-family: 'Lato', sans-serif;
+}
+
+/******************* Main Program ********************/
+
+.main-program {
+  background-image: url(../images/main-bg.png), linear-gradient(rgb(39, 42, 49), rgb(39, 42, 49));
+  background-repeat: repeat;
+  background-size: 30px;
+  border: solid;
+  padding-bottom: 30px;
+}
+
+.main-program > p {
+  text-align: center;
+  font-size: 17px;
+  font-weight: bold;
+  color: #d3d3d3;
+  font-family: 'Lato', sans-serif;
+}
+
+footer hr,
+.main-program hr,
+.tutors hr,
+.testimonies hr,
+.logo-descript hr {
+  width: 40px;
+  border: 1px solid #ec5242;
+}
+
+.program-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.flex1,
+.flex2,
+.flex3 {
+  margin: 3px;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: 'Lato', sans-serif;
+}
+
+.flex1 {
+  width: 48px;
+  height: 48px;
+}
+
+.flex2 {
+  min-width: 25%;
+  overflow: hidden;
+  color: #ec5242;
+}
+
+.flex3 {
+  min-width: 50%;
+  overflow: hidden;
+  color: #272a31;
+}
+
+.join-gst {
+  display: block;
+  margin: 0 auto;
+  border: none;
+  background: #ec5242;
+  padding: 20px 30px;
+  color: white;
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  margin-top: 30px;
+}
+
+/******************* Tutors *****************/
+
+.tutors {
+  padding-left: 6%;
+  padding-right: 6%;
+}
+
+.tutors-title {
+  text-align: center;
+  font-weight: bold;
+  color: red;
+  font-family: 'Lato', sans-serif;
+}
+
+.grid-profiles {
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.tutor2 ~ .grid-profiles {
+  display: none;
+}
+
+.show-less .tutor2 ~ .grid-profiles {
+  display: block;
+}
+
+.grid-pro-1 {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding-left: 12px;
+  padding-top: 12px;
+  object-fit: cover;
+  object-position: bottom;
+}
+
+.image-container {
+  background-image: url('../images/chess.jpg');
+  background-size: 40% 40%;
+  background-repeat: no-repeat;
+  background-position-x: 0;
+  background-position-y: 0;
+  padding: 0;
+}
+
+.grid-pro-2 {
+  margin: 0;
+  font-weight: bold;
+  word-break: break-all;
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+}
+
+.grid-pro-3 {
+  margin: 0;
+  font-size: 12px;
+  font-style: italic;
+  color: #ec5242;
+  font-weight: bold;
+  word-break: break-all;
+  font-family: 'Lato', sans-serif;
+  line-height: 20px;
+}
+
+.grid-pro-4 {
+  word-break: break-all;
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: bold;
+}
+
+.profile-info::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+.profile-info {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  float: right;
+  clear: both;
+  padding-top: 5px;
+}
+
+.grid-profiles p {
+  margin-left: 10px;
+  padding: 3px;
+}
+
+.more-tutors,
+.show-less {
+  border: 2px solid gray;
+  border-radius: 3px;
+  text-align: center;
+  width: 100%;
+  background-color: white;
+  padding: 8px;
+}
+
+.more-tutors i,
+.show-less i {
+  color: #ec5252;
+}
+
+.show-more-courses {
+  display: none;
+}
+
+.mobile-footer {
+  display: none;
+}
+
+/************************ About Page ************************/
+
+.body {
+  background-color: #e6e4e4;
+}
+
+.description {
+  background-color: #e6e4e4;
+}
+
+.description h1 {
+  color: #ec5252;
+  font-size: 40px;
+  font-family: sans-serif;
+  padding: 40px 20px 20px 20px;
+  margin-top: 0;
+}
+
+.description > p {
+  border: 2px solid gray;
+  padding: 15px;
+  margin: 20px;
+  background-color: white;
+}
+
+.contact-us {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.contact-us p {
+  padding: 0 15px;
+  line-height: 32px;
+}
+
+.about-logo {
+  background-color: white;
+}
+
+.logo-descript {
+  margin: 0 auto;
+  width: 70%;
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.logo {
+  margin: 0 auto;
+  width: 70%;
+  border: 1px solid rgb(179, 177, 177);
+  text-align: center;
+  margin-bottom: 50px;
+  padding: 10px;
+}
+
+.logo img {
+  max-width: 30%;
+  height: auto;
+}
+
+.testimonies {
+  background-color: white;
+  padding: 0 20px 20px 20px;
+}
+
+.testimonies-title {
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: 'Lato', sans-serif;
+}
+
+.testimonies-intro {
+  font-family: 'Lato', sans-serif;
+}
+
+.card1 {
+  background-image: linear-gradient(rgba(236, 82, 66, 0.6), rgba(236, 82, 66, 0.6)), url(../images/2020.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 190px;
+  position: relative;
+}
+
+.card2 {
+  background-image: linear-gradient(rgba(236, 82, 66, 0.6), rgba(236, 82, 66, 0.6)), url(../images/2019.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 190px;
+  position: relative;
+  margin-top: 30px;
+}
+
+.testimonies div h1 {
+  position: absolute;
+  top: 40px;
+  left: 130px;
+  color: white;
+  font-family: 'Lato', sans-serif;
+}
+
+.partner p {
+  text-align: center;
+  color: white;
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+}
+
+.testimonies div p {
+  position: absolute;
+  top: 80px;
+  left: 45px;
+  color: white;
+  font-family: 'Lato', sans-serif;
+}
+
+footer {
+  background-color: white;
+  font-family: 'Lato', sans-serif;
+}
+
+.partner {
+  background-color: rgb(68, 66, 66);
+  min-height: 140px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.partner img {
+  width: 60px;
+  height: 20px;
+}
+
+.partner ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding: 0;
+}
+
+.partner ul li {
+  font-size: 20px;
+  margin: 10px 20px;
+}
+
+footer div:last-child {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer div:last-child p {
+  width: 60%;
+}
+
+.footer-logo {
+  display: block;
+  width: 48px;
+  height: 48px;
+  margin: 20px;
+}

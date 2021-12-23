@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/2b1476549e.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="assets/stylesheets/mobile.css" media="screen and (max-width: 768px)">
+  <link rel="stylesheet" href="assets/stylesheets/desktop.css" media="screen and (min-width: 768px)">
+  <link href="http://fonts.cdnfonts.com/css/cocogoose" rel="stylesheet">
+  <link href="http://fonts.cdnfonts.com/css/lato" rel="stylesheet">      
+  <title> Web Development Course</title>
+</head>
+<body>
+  <header>
+    <nav class="mobile-header mobile-menu">
+      <i class="fas fa-bars menu-icon"></i>
+      <div class="js-menu">
+        <i class="fas fa-times close-icon"></i>
+        <ul class="menu-list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="#courses">Courses</a></li>
+          <li><a href="#">Apply</a></li>
+          <li><a href="#">Sponsor</a></li>
+          <li><a href="#">FAQ</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div class="desktop-header-icons">
+      <ul>
+        <li><a><i class="fab fa-facebook-f"></i></a></li>
+        <li><a><i class="fab fa-twitter"></i> </a></li>
+        <li>English</li>
+        <li>My Page</li>
+        <li>Logout</li>
+      </ul>
+    </div>
+    <nav class="desktop-header-nav">
+      <a href="#"><img src="./assets/images/weblogo.png" alt="GST_Logo"></a>
+      <ul>
+        <li><a href="about.html">About</a></li>
+        <li><a href="#courses">Courses</a></li>
+        <li><a href="#">Apply</a></li>
+        <li><a href="#">Sponsor</a></li>
+        <li><a href="#">FAQ</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="intro">
+      <div class="intro-title">
+        <h1>Welcome to Global School of Tech</h1>
+      </div>
+      <p>
+        If you are looking for the best platform to
+         learn web development with interactive and flexible 
+         teaching methods that suit your needs then you have 
+         landed on the right platform.
+      </p>
+    </section>
+
+    <section id="courses" class="main-program">
+      <p>Main Program</p>
+      <hr>
+      <ul class="program-list">
+        <li class='flexbox'>
+          <img src="./assets/images/html.png" alt="" class="flex1">
+          <p class="flex2">Html</p>
+          <p class="flex3">A website foundation is it's 
+            structure which HTML is built for.
+          </p>
+        </li>
+        <li>
+          <img src="./assets/images/css.png" alt="" class="flex1">
+          <p class="flex2">Css</p>
+          <p class="flex3">
+            Learn how to make your website look stunning 
+            using Cascading stylesheets.
+          </p>
+        </li>
+        <li>
+          <img src="./assets/images/javascript.png" alt="" class="flex1">
+          <p class="flex2">JavaScript</p>
+          <p class="flex3">
+            Add functionality features to your 
+            website using the power of JavaScript
+          </p>
+        </li>
+        <li>
+          <img src="./assets/images/bootstrap.png" alt="" class="flex1">
+          <p class="flex2">Frameworks</p>
+          <p class="flex3">
+            Learn frameworks to simulate your 
+            development process and save time.
+          </p>
+        </li>
+        <li>
+          <img src="./assets/images/python.png" alt="" class="flex1">
+          <p class="flex2">Back-end</p>
+          <p class="flex3">
+            Learn back-end languages to work with what's
+             behind the scenes of websites and database interactions.
+          </p>
+        </li>
+      </ul>
+      <button type="button" class="join-gst">Join GST Class of 2022</button>
+      <button class="show-more-courses">SEE THE WHOLE PROGRAM</button>
+    </section>
+
+    <section class="tutors">
+      <!-- Tutors added here dynamically using javascript -->
+    </section>
+  </main>
+  
+  <footer class="mobile-footer">
+    <div class="partner">
+      <p>Partner</p>
+      <hr>
+      <ul>
+        <li><img src="assets/images/fortiss.png" alt="fortiss_logo"></li>
+        <li><img src="assets/images/it-daily.png" alt="it-daily_logo"></li>
+        <li><img src="assets/images/ix.png" alt="ix_logo"></li>
+        <li><img src="assets/images/tu.png" alt="tu_logo"></li>
+        <li><img src="assets/images/partner1.png" alt="dpunkt_logo"></li>
+      </ul>
+    </div>
+    <div>
+      <img src="./assets/images/weblogo.png" alt="GST_Logo" class="footer-logo">
+      <p>
+        2017 Global School of Tech.
+        Some rights reserved.
+      </p>
+    </div>
+  </footer>
+  
+  <script src="./assets/js/menu.js"></script>
+  <script src="./assets/js/tutors.js"></script>
+  
+</body>
+</html>
