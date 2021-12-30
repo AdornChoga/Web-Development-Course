@@ -468,14 +468,13 @@ footer div:last-child {
   margin-top: 90px;
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
   width: 70%;
 }
 
 .card1 {
   background-color: rgb(219,110,90);
   width: 100%;
-  width: 48%;
+  height: 100%;
   position: relative;
   margin-top: 0;
   overflow: hidden;
@@ -491,9 +490,12 @@ footer div:last-child {
 .card2 {
   background-color: rgb(219,110,90);
   width: 100%;
-  width: 48%;
+  height: 100%;
+  margin-left: 2%;
+  margin-top: 0;
   position: relative;
   overflow: hidden;
+
 }
 
 .card2 img {
