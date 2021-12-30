@@ -374,29 +374,49 @@ footer hr,
   font-family: 'Lato', sans-serif;
 }
 
+.testimonies-cards {
+  width: 90%;
+  margin: 0 auto;
+}
 .card1 {
-  background-image: linear-gradient(rgba(236, 82, 66, 0.6), rgba(236, 82, 66, 0.6)), url(../images/2020.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 190px;
+  background-color: rgb(219,110,90);
+  width: 100%;
   position: relative;
+  overflow: hidden;
+  padding: 0
+}
+
+.card1 img {
+  width: 100%;
+  opacity: 0.3;
+  display: block;
+  height: 100%;
 }
 
 .card2 {
-  background-image: linear-gradient(rgba(236, 82, 66, 0.6), rgba(236, 82, 66, 0.6)), url(../images/2019.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 190px;
+  margin-top: 5%;
+  background-color: rgb(219,110,90);
+  width: 100%;
   position: relative;
-  margin-top: 30px;
+  overflow: hidden;
 }
 
-.testimonies div h1 {
+.card2 img {
+  width: 100%;
+  height: 100%;
+  opacity: 0.3;
+  display: block;
+}
+
+.year {
+  text-align: center;
   position: absolute;
-  top: 40px;
-  left: 130px;
+  top: 20%;
+  right: 25%;
+  left: 25%;
   color: white;
   font-family: 'Lato', sans-serif;
+  font-size: 4.5vw;
 }
 
 .partner p {
@@ -406,12 +426,15 @@ footer hr,
   font-size: 20px;
 }
 
-.testimonies div p {
+.statistics {
+  text-align: center;
   position: absolute;
-  top: 80px;
-  left: 45px;
+  top: 40%;
+  left: 25%;
+  right: 25%;
   color: white;
   font-family: 'Lato', sans-serif;
+  font-size: 3vw;
 }
 
 footer {
