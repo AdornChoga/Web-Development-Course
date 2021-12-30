@@ -471,7 +471,7 @@ footer div:last-child {
 }
 
 .card1 {
-  background-color: rgb(219,110,90);
+  background-color: rgb(219, 110, 90);
   width: 100%;
   height: 100%;
   position: relative;
@@ -487,14 +487,13 @@ footer div:last-child {
 }
 
 .card2 {
-  background-color: rgb(219,110,90);
+  background-color: rgb(219, 110, 90);
   width: 100%;
   height: 100%;
   margin-left: 2%;
   margin-top: 0;
   position: relative;
   overflow: hidden;
-
 }
 
 .card2 img {
@@ -514,6 +513,7 @@ footer div:last-child {
   font-family: 'Lato', sans-serif;
   font-size: 1.8vw;
 }
+
 .statistics {
   text-align: center;
   position: absolute;

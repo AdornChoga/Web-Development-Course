@@ -378,12 +378,13 @@ footer hr,
   width: 90%;
   margin: 0 auto;
 }
+
 .card1 {
-  background-color: rgb(219,110,90);
+  background-color: rgb(219, 110, 90);
   width: 100%;
   position: relative;
   overflow: hidden;
-  padding: 0
+  padding: 0;
 }
 
 .card1 img {
@@ -395,7 +396,7 @@ footer hr,
 
 .card2 {
   margin-top: 5%;
-  background-color: rgb(219,110,90);
+  background-color: rgb(219, 110, 90);
   width: 100%;
   position: relative;
   overflow: hidden;
