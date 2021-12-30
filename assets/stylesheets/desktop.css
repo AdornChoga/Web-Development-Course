@@ -460,6 +460,7 @@ footer div:last-child {
   text-align: center;
   width: 70%;
   padding: 0 100px;
+  overflow: hidden;
 }
 
 .testimonies-cards {
@@ -467,39 +468,56 @@ footer div:last-child {
   margin-top: 90px;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   width: 70%;
 }
 
 .card1 {
-  background-image: linear-gradient(rgba(236, 82, 66, 0.6), rgba(236, 82, 66, 0.6)), url(../images/2020.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: rgb(219,110,90);
+  width: 100%;
   width: 48%;
-  height: 250px;
   position: relative;
+  margin-top: 0;
+  overflow: hidden;
+}
+
+.card1 img {
+  width: 100%;
+  height: 100%;
+  opacity: 0.3;
+  display: block;
 }
 
 .card2 {
-  background-image: linear-gradient(rgba(236, 82, 66, 0.6), rgba(236, 82, 66, 0.6)), url(../images/2019.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: rgb(219,110,90);
+  width: 100%;
   width: 48%;
-  height: 250px;
   position: relative;
+  overflow: hidden;
+}
+
+.card2 img {
+  width: 100%;
+  height: 100%;
+  opacity: 0.3;
+  display: block;
 }
 
 .year {
-  color: white;
+  text-align: center;
   position: absolute;
-  top: 40px;
-  left: 150px;
+  top: 10%;
+  right: 25%;
+  left: 25%;
+  color: white;
   font-family: 'Lato', sans-serif;
 }
-
 .statistics {
-  color: white;
+  text-align: center;
   position: absolute;
-  top: 80px;
-  left: 80px;
+  top: 30%;
+  left: 25%;
+  right: 25%;
+  color: white;
   font-family: 'Lato', sans-serif;
 }
