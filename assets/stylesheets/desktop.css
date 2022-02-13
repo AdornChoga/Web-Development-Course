@@ -38,6 +38,12 @@ header nav a {
   background-color: rgb(62, 62, 62);
 }
 
+.program-list > li {
+  width: 10rem;
+  height: auto;
+  padding: max(0.5vw, 1rem);
+}
+
 .desktop-header-icons ul {
   display: flex;
   justify-content: flex-end;
@@ -53,7 +59,7 @@ header nav a {
   margin: 3px;
   min-height: 90px;
   background-color: rgb(211, 211, 211, 0.2);
-  width: 40%;
+  width: 11rem;
   padding: 20px;
 }
 
@@ -98,7 +104,7 @@ main {
 
 .intro h1 {
   color: rgb(236, 82, 66);
-  font-size: clamp(2.5rem,5vw, 5rem);
+  font-size: clamp(2.5rem, 5vw, 5rem);
   font-family: 'COCOGOOSE', sans-serif;
   padding: 10px;
   width: 70%;
@@ -148,15 +154,16 @@ main {
 
 .program-list {
   list-style-type: none;
-  padding: 0;
+  padding: 2rem 4rem;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
 }
 
-.program-list > li {
-  width: 10rem;
-  height: auto;
-  padding: max(0.5vw, 1rem);
+.program-list div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .flex1,

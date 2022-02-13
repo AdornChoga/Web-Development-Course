@@ -163,7 +163,7 @@ footer hr,
 .flex2 {
   overflow: hidden;
   color: darkblue;
-  font-size: max(2.5vw + 0.5rem, 1.3rem);
+  font-size: max(2vw + 0.5rem, 1.2rem);
   width: fit-content;
 }
 
@@ -171,7 +171,7 @@ footer hr,
   overflow: hidden;
   color: #37383a;
   padding-left: 0.8em;
-  font-size: max(1.7vw + 0.3rem, 0.8rem);
+  font-size: max(1.5vw + 0.3rem, 0.8rem);
 }
 
 .join-gst {
@@ -184,7 +184,7 @@ footer hr,
   font-family: 'Lato', sans-serif;
   font-size: 20px;
   margin-top: 30px;
-  width: clamp(10rem, 80vw + 1rem, 30rem)
+  width: clamp(10rem, 80vw + 1rem, 30rem);
 }
 
 /******************* Tutors *****************/
