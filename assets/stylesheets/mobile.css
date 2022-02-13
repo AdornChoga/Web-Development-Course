@@ -40,10 +40,16 @@ header {
 .program-list li {
   border: 1px solid black;
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
   margin: 10px;
   min-height: 90px;
   background-color: rgba(255, 255, 255, 0.5);
+}
+
+.program-list div {
+  display: flex;
+  align-items: center;
 }
 
 .menu-list li + li {
@@ -91,16 +97,17 @@ header {
 
 .intro h1 {
   color: #ec5242;
-  font-size: 40px;
+  font-size: clamp(1.7rem, 4vw + 1rem, 3rem);
   padding: 10px;
   font-family: 'COCOGOOSE', sans-serif;
+  width: 85%;
 }
 
 .intro p {
   padding: 10px;
   color: #272a31;
   border: 2px solid white;
-  font-size: 20px;
+  font-size: clamp(1.2rem, 1vw + 0.5rem, 2rem);
   line-height: 30px;
   margin-left: 15px;
   margin-right: 15px;
@@ -136,14 +143,14 @@ footer hr,
 
 .program-list {
   list-style-type: none;
-  padding: 0;
+  padding: 1vw;
+  width: 100%;
 }
 
 .flex1,
 .flex2,
 .flex3 {
   margin: 3px;
-  font-size: 14px;
   font-weight: 600;
   font-family: 'Lato', sans-serif;
 }
@@ -154,15 +161,17 @@ footer hr,
 }
 
 .flex2 {
-  min-width: 25%;
   overflow: hidden;
-  color: #ec5242;
+  color: darkblue;
+  font-size: max(2.5vw + 0.5rem, 1.3rem);
+  width: fit-content;
 }
 
 .flex3 {
-  min-width: 50%;
   overflow: hidden;
-  color: #272a31;
+  color: #37383a;
+  padding-left: 0.8em;
+  font-size: max(1.7vw + 0.3rem, 0.8rem);
 }
 
 .join-gst {
@@ -175,13 +184,13 @@ footer hr,
   font-family: 'Lato', sans-serif;
   font-size: 20px;
   margin-top: 30px;
+  width: clamp(10rem, 80vw + 1rem, 30rem)
 }
 
 /******************* Tutors *****************/
 
 .tutors {
-  padding-left: 6%;
-  padding-right: 6%;
+  padding: 0 2rem;
 }
 
 .tutors-title {
@@ -191,20 +200,14 @@ footer hr,
   font-family: 'Lato', sans-serif;
 }
 
-.grid-profiles {
-  margin: 0 auto;
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-
-.tutor2 ~ .grid-profiles {
-  display: none;
-}
-
-.show-less .tutor2 ~ .grid-profiles {
-  display: block;
+.grid-tutors {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 3rem;
+  font-family: 'Lato', sans-serif;
+  padding: 5% 0;
+  justify-content: center;
 }
 
 .grid-pro-1 {
@@ -224,6 +227,8 @@ footer hr,
   background-position-x: 0;
   background-position-y: 0;
   padding: 0;
+  width: clamp(8rem, 10vw, 15rem);
+  height: clamp(8rem, 10vw, 15rem);
 }
 
 .grid-pro-2 {
@@ -246,12 +251,17 @@ footer hr,
 }
 
 .grid-pro-4 {
-  word-break: break-all;
   margin: 0;
   font-family: 'Lato', sans-serif;
   font-size: 13px;
   line-height: 20px;
   font-weight: bold;
+}
+
+.grid-profiles {
+  display: flex;
+  padding: 0;
+  width: 100%;
 }
 
 .profile-info::after {
@@ -260,28 +270,37 @@ footer hr,
   display: block;
 }
 
+.tutor2 ~ .grid-profiles {
+  display: none;
+}
+
+.show-less .tutor2 ~ .grid-profiles {
+  display: block;
+}
+
 .profile-info {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  float: right;
-  clear: both;
-  padding-top: 5px;
+  width: 80%;
 }
 
 .grid-profiles p {
   margin-left: 10px;
   padding: 3px;
+  font-size: max(0.7rem, 2vw);
 }
 
 .more-tutors,
 .show-less {
+  display: block;
   border: 2px solid gray;
   border-radius: 3px;
   text-align: center;
-  width: 100%;
+  width: 95%;
   background-color: white;
   padding: 8px;
+  margin-inline: auto;
 }
 
 .more-tutors i,
