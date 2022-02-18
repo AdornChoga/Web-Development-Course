@@ -1,5 +1,3 @@
-/******************* Header *********************/
-
 * {
   box-sizing: border-box;
 }
@@ -95,7 +93,12 @@ main {
 }
 
 .intro {
-  background-image: linear-gradient(rgba(211, 211, 211, 0.9), rgba(211, 211, 211, 0.9)), url(../images/webdesktop.jpg);
+  background-image:
+    linear-gradient(
+      rgba(211, 211, 211, 0.9),
+      rgba(211, 211, 211, 0.9)
+    ),
+    url(../assets/images/webdesktop.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   margin: 0;
@@ -108,7 +111,7 @@ main {
   font-family: 'COCOGOOSE', sans-serif;
   padding: 10px;
   width: 70%;
-  background-image: url(../images/fire.jpg);
+  background-image: url(../assets/images/fire.jpg);
   background-size: cover;
   background-position: center center;
   background-clip: inherit;
@@ -126,16 +129,16 @@ main {
   font-family: 'Lato', sans-serif;
 }
 
-/************* Main Program **************/
-
 .main-program {
-  background-image: url(../images/main-bg.png), linear-gradient(rgb(39, 42, 49), rgb(39, 42, 49));
+  background-image:
+    url(../assets/images/main-bg.png),
+    linear-gradient(rgb(39, 42, 49), rgb(39, 42, 49));
   background-repeat: repeat;
   background-size: 20px;
   border: solid;
 }
 
-.main-program > p {
+.main-program > h1 {
   text-align: center;
   font-size: 17px;
   font-weight: bold;
@@ -213,8 +216,6 @@ main {
   font-family: 'Lato', sans-serif;
 }
 
-/******************* Our Tutors *******************/
-
 .tutors {
   padding: 0;
 }
@@ -246,7 +247,7 @@ main {
 }
 
 .image-container {
-  background-image: url('../images/chess.jpg');
+  background-image: url('../assets/images/chess.jpg');
   background-size: 40% 40%;
   background-repeat: no-repeat;
   background-position-x: 0;
@@ -310,8 +311,6 @@ main {
 .more-tutors {
   display: none;
 }
-
-/********************** Footer ********************/
 
 .about-footer {
   background-color: white;
