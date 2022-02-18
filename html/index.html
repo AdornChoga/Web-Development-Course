@@ -5,8 +5,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="https://kit.fontawesome.com/2b1476549e.js" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="assets/stylesheets/mobile.css" media="screen and (max-width: 768px)">
-  <link rel="stylesheet" href="assets/stylesheets/desktop.css" media="screen and (min-width: 768px)">
+  <link rel="stylesheet" href="../stylesheets/mobile.css" media="screen and (max-width: 768px)">
+  <link rel="stylesheet" href="../stylesheets/desktop.css" media="screen and (min-width: 768px)">
   <link href="http://fonts.cdnfonts.com/css/cocogoose" rel="stylesheet">
   <link href="http://fonts.cdnfonts.com/css/lato" rel="stylesheet">      
   <title> Web Development Course</title>
@@ -37,7 +37,7 @@
       </ul>
     </div>
     <nav class="desktop-header-nav">
-      <a href="#"><img src="./assets/images/weblogo.png" alt="GST_Logo"></a>
+      <a href="#"><img src="../assets/images/weblogo.png" alt="GST_Logo"></a>
       <ul>
         <li><a href="about.html">About</a></li>
         <li><a href="#courses">Courses</a></li>
@@ -55,28 +55,28 @@
       </div>
       <p>
         If you are looking for the best platform to
-         learn web development with interactive and flexible 
-         teaching methods that suit your needs then you have 
-         landed on the right platform.
+        learn web development with interactive and flexible 
+        teaching methods that suit your needs then you have 
+        landed on the right platform.
       </p>
     </section>
-
     <section id="courses" class="main-program">
-      <p>Main Program</p>
+      <h1>Main Program</h1>
       <hr>
       <ul class="program-list">
         <li class='flexbox'>
           <div>
-            <img src="./assets/images/html.png" alt="" class="flex1">
+            <img src="../assets/images/html.png" alt="" class="flex1">
             <p class="flex2">Html</p>
           </div>
-          <p class="flex3">A website foundation is it's 
+          <p class="flex3">
+            A website foundation is it's 
             structure which HTML is built for.
           </p>
         </li>
         <li>
           <div>
-            <img src="./assets/images/css.png" alt="" class="flex1">
+            <img src="../assets/images/css.png" alt="" class="flex1">
             <p class="flex2">Css</p>
           </div>
           <p class="flex3">
@@ -86,7 +86,7 @@
         </li>
         <li>
           <div>
-            <img src="./assets/images/javascript.png" alt="" class="flex1">
+            <img src="../assets/images/javascript.png" alt="" class="flex1">
             <p class="flex2">JavaScript</p>
           </div>
           <p class="flex3">
@@ -96,7 +96,7 @@
         </li>
         <li>
           <div>
-            <img src="./assets/images/bootstrap.png" alt="" class="flex1">
+            <img src="../assets/images/bootstrap.png" alt="" class="flex1">
             <p class="flex2">Frameworks</p>
           </div>
           <p class="flex3">
@@ -106,7 +106,7 @@
         </li>
         <li>
           <div>
-            <img src="./assets/images/python.png" alt="" class="flex1">
+            <img src="../assets/images/python.png" alt="" class="flex1">
             <p class="flex2">Back-end</p>
           </div>
           <p class="flex3">
@@ -116,12 +116,9 @@
         </li>
       </ul>
       <button type="button" class="join-gst">Join GST Class of 2022</button>
-      <button class="show-more-courses">SEE THE WHOLE PROGRAM</button>
+      <button type="button" class="show-more-courses">SEE THE WHOLE PROGRAM</button>
     </section>
-
-    <section class="tutors">
-      <!-- Tutors added here dynamically using javascript -->
-    </section>
+    <div class="tutors"></div>
   </main>
   
   <footer class="mobile-footer">
@@ -129,15 +126,15 @@
       <p>Partner</p>
       <hr>
       <ul>
-        <li><img src="assets/images/fortiss.png" alt="fortiss_logo"></li>
-        <li><img src="assets/images/it-daily.png" alt="it-daily_logo"></li>
-        <li><img src="assets/images/ix.png" alt="ix_logo"></li>
-        <li><img src="assets/images/tu.png" alt="tu_logo"></li>
-        <li><img src="assets/images/partner1.png" alt="dpunkt_logo"></li>
+        <li><img src="../assets/images/fortiss.png" alt="fortiss_logo"></li>
+        <li><img src="../assets/images/it-daily.png" alt="it-daily_logo"></li>
+        <li><img src="../assets/images/ix.png" alt="ix_logo"></li>
+        <li><img src="../assets/images/tu.png" alt="tu_logo"></li>
+        <li><img src="../assets/images/partner1.png" alt="dpunkt_logo"></li>
       </ul>
     </div>
     <div>
-      <img src="./assets/images/weblogo.png" alt="GST_Logo" class="footer-logo">
+      <img src="../assets/images/weblogo.png" alt="GST_Logo" class="footer-logo">
       <p>
         2017 Global School of Tech.
         Some rights reserved.
@@ -145,8 +142,6 @@
     </div>
   </footer>
   
-  <script src="./assets/js/menu.js"></script>
-  <script src="./assets/js/tutors.js"></script>
-  
+  <script type="module" src="../js/app.js"></script>
 </body>
 </html>
