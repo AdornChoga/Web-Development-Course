@@ -62,6 +62,7 @@ function loadTutors() {
         <p class="grid-pro-2">${tutors[i].tutorName}</p>
         <p class="grid-pro-3">${tutors[i].skill}</p>
         <p class="grid-pro-4">${tutors[i].description}</p>
+      <div>
     </div>`;
   }
 
