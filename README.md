@@ -3,35 +3,35 @@
 
 # Web-Development-Course
 
-> This is a website for recruiting and teaching students web-development.
+> This is a website for recruiting and teaching aspiring developers software development.
+> The website is still under development so most of the links are not yet functional. However the About and Courses links are functional as well as the clicking on the logo to navigate to the home page.
 
 ## Built With
 
-- HTML , CSS and JavaScript.
+- HTML
+- CSS
+- JavaScript.
 
 ## Live Demo
 
-[Live Demo Link](https://adornchoga.github.io/Web-Development-Course/)
+[View live on Netlify](https://flamboyant-noether-0f462b.netlify.app/)
 
 
 ## Getting Started
 
 To run this application please follow these steps:
+To run this application please follow these steps:
 
-1.Clone the repo onto you local machine
-  - to clone click on the green 'Code' button and copy the HTTPS link.
-  -using 'git clone <link>' command clone the repository on your local machine.
-2.Open the project using your browser
-  -you can either open the html file from the folder where you cloned this repository to see the live preview of this project or you can open it from Visual Studio Code.
-  -if you have  Visual Studio Code (Install it if you don't have it please) install Live Server from the extensions market place and then right click on the index.html file and click option 1 (which says : Open with Live Server). It will open up in your default browser.
-
+1.Clone the repo onto your local machine using the HTTPS link.
+2.Open the project using your browser by;
+  -Installing a live server extension in Visual Studio Code and right clicking on the index.html file then click the first option 1 (Open with Live Server).
 
 ## Authors
 
 👤 **Author1**
-Adorn Choga (me)
+Adorn Choga(me)
 
-- GitHub: [@asanchy](https://github.com/Asanchy)
+- GitHub: [@adornchoga](https://github.com/AdornChoga)
 - Twitter: [@adorn_choga](https://twitter.com/adorn_choga)
 - LinkedIn: [adorn-choga](https://www.linkedin.com/in/adorn-choga-076024201/)
 
