@@ -5,7 +5,7 @@ const tutors = [
     tutorName: 'Michael Pearson',
     skill: 'Front-End Accessibility Expert',
     description: `Has extensive experience with crafting font-end
-  technologies that support accessibility 
+  technologies that support accessibility
   requirements and standards.`,
   },
   {
