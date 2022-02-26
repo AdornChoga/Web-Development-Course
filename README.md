@@ -6,7 +6,7 @@
 > This is a website for recruiting and teaching aspiring developers software development.
 > The website is still under development so most of the links are not yet functional. However the About and Courses links are functional as well as the clicking on the logo to navigate to the home page.
 
-[!](./demos/web-dev-course.gif)
+![](./demos/web-dev-course.gif)
 
 ## Built With
 
